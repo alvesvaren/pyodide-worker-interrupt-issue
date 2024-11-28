@@ -15,6 +15,6 @@ worker.addEventListener("message", ({ data }) => {
 });
 
 document.querySelector("#cancel")!.addEventListener("click", () => {
-  console.log("Cancelling worker");
+  console.log("sharedArrayBuffer[0] = 2");
   sharedArrayBuffer[0] = 2;
 });
